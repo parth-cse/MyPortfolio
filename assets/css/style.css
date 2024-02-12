@@ -135,6 +135,7 @@ h1{
     flex-wrap: wrap;
     justify-content: space-around;
     margin-top: 4rem;
+    gap: 2rem;
 }
 
 .skill{
@@ -159,7 +160,7 @@ h1{
 .container-project{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 0fr 15rem 15rem 15rem 0fr;
+    grid-template-columns: 0fr 1fr 1fr 1fr 0fr;
     margin-top: 4rem;
     gap:10rem;
     grid-row-gap: 4rem
@@ -167,7 +168,8 @@ h1{
 }
 
 .card{
-    width: 15rem;
+    
+    width: 100%;
 }
 
 .card1
@@ -387,6 +389,7 @@ footer>div{
     h3{
         font-size: 8px;
         text-align: center;
+        text-underline-offset: 0.5rem;
     }
 
     .container-contact{
@@ -404,6 +407,10 @@ footer>div{
 
     #Skill img{
         width: 80px;
+    }
+
+    hr{
+        border: 1px solid #113946;
     }
 
 }
