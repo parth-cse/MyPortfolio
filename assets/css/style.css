@@ -416,4 +416,8 @@ footer>div{
         border: 1px solid #113946;
     }
 
+    .card{
+        width: 50%;
+    }
+
 }
