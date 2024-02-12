@@ -251,7 +251,7 @@ footer>div{
         height: 20vh;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 5rem 1fr;
+        grid-template-rows: 5fr 1fr;
         width: auto;
     }
 
@@ -295,7 +295,7 @@ footer>div{
     }
 
     h2{
-        font-size: 22.5px;
+        font-size: 30px;
     }
 
     .container-project{
@@ -306,8 +306,12 @@ footer>div{
         flex-direction: column;
     }
 
+    .card{
+        width: 50%;
+    }
+
     h3{
-        font-size: 15px;
+        font-size: 20px;
         text-align: center;
     }
 
@@ -375,7 +379,7 @@ footer>div{
     }
 
     h2{
-        font-size: 12px;
+        font-size: 20px;
     }
 
     .container-project{
@@ -387,9 +391,8 @@ footer>div{
     }
 
     h3{
-        font-size: 8px;
+        font-size: 10px;
         text-align: center;
-        text-underline-offset: 0.5rem;
     }
 
     .container-contact{
